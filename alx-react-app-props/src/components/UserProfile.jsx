@@ -1,4 +1,6 @@
 import React from "react";
+import userContest from "./UserContext";
+userContest;
 
 export const UserProfile = (props) => {
   return (
