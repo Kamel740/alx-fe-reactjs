@@ -5,9 +5,9 @@ function App() {
   const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
 
   return (
-    <userContest.Provider value={userData}>
+    <UserContext.Provider value={userData}>
       <ProfilePage userData={userData} />
-    </userContest.Provider>
+    </UserContext.Provider>
   );
 }
 
